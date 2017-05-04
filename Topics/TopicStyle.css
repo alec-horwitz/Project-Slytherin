@@ -1,0 +1,131 @@
+body {
+	background-color: #343434;
+	text-align: center;
+}
+.mainTitle {
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 50px;
+  float: left;
+  border: 1px solid grey;
+  width: 99.18%;
+  box-shadow: 0 0 1px transparent;
+}
+.button {
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 20px;
+  cursor: pointer;
+  float: left;
+  border: 1px solid grey;
+  width: 49.54%;
+  box-shadow: 0 0 1px transparent;
+}
+.button:hover {
+  background-color: gray;
+  color: black;
+}
+.opener {
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 20px;
+  cursor: pointer;
+  float: left;
+  border: 1px solid grey;
+  width: 49.54%;
+  box-shadow: 0 0 1px transparent;
+}
+.opener:hover {
+  background-color: gray;
+  color: black;
+}
+.mainbutton {
+  background-color: gray;
+  color: black;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 50px;
+  text
+  cursor: pointer;
+  float: left;
+  border: 4px #343434;
+  width: 40%;
+  box-shadow: 0 0 1px transparent;
+}
+.mainbutton:hover {
+  background-color: black;
+  color: white;
+}
+.about {
+  background-color: gray;
+  color: black;
+  text-align: left;
+  border: 1px solid black;
+  box-shadow: 0 0 1px transparent;
+  width:49.54%;
+  height:100px;
+}
+.abouttext{
+  line-height: 150%;
+  color:black;
+
+}
+.header-background {
+  top: 0%;
+  left: 0%;
+  background-color: black;
+  width: 100%;
+  height: 158px;
+  position: fixed;
+  z-index: 5;
+}
+.mainheader {
+  top: 0%;
+  left: 0.3%;
+	height: 0px;
+	position: fixed;
+  text-align: center;
+	width: 100%;
+	z-index: 10;
+}
+.mainheader nav ul {
+	list-style: none;
+  margin-top: 0px;
+	margin-left: 0px;
+  padding-left: 0px;
+  height: 100%;
+  display: block;
+  text-align: center;
+}
+.altheader {
+  height: 0px;
+  text-align: center;
+  width: 100%;
+  z-index: 4;
+}
+.altheader nav ul {
+  list-style: none;
+  margin-top: 0px;
+  margin-left: 0%;
+  padding-left: 15.555%;
+  height: 100%;
+  display: block;
+  text-align: center;
+}

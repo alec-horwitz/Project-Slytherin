@@ -4,6 +4,8 @@ CONTENT
 -------
 The website focuses on the work of the Spring 2017 Art History Senior Seminar taught by Professor Leah Niederstadt. Each of the nine students in the class researched a particular museum controversy. 
 
+The website can be accessed via the following link: http://museumcontroversies.webspace.wheatoncollege.edu/index.html
+
 ABOUT US
 --------
 Created by:

@@ -1,0 +1,234 @@
+Updated by Muneeba: 5/2/17 -- 11:10pm
+- changed <div style="margin:80px"> at the beginning of Fakes and Forgeries article page 
+
+UPDATED by Muneeba and Kamran: 4/27/17 -- 5:03am
+- updated biostyle.css to increase spacing for biobody 
+- added abouttext class to topicstyle.css for the "What's this About" text on project pages to increase spacing
+- removed extra line breaks at the bottom of all bio pages 
+- added deaccessioning and security photo for homepage
+- removed arrows on all of the topic pages for the "What's this About" part 
+- individually sized all of the bio photos on topic pages to not be warped (height for all is now 800px, and width is 60%)
+- made "under construction" temporary redirection from index.html for both the image and the project topic
+- added photos to security of collections folder and to its article page
+- relinked project page for grave goods to correct storymap
+- self representation goes to the contact form, it just doesn't work 
+   - added html_form.php 
+- anna craig on the homepage has random extra gray text because asdkjfa;sljfd;lk
+- added photos to gallery page
+
+
+
+LAST UPDATED by Alec: 4/26/17 -- 7:45 pm
+- Added the links to the develepers page for our our own LinkedIns
+- Fixed two of the project links in the topic pages
+- Edited some text at the end of all the topic pages
+- Added offical about text to the index page
+- tweeked the spacing on all topic pages
+- Linked fai's project page to the contact form as requested 
+- Deleted all images that are no longer in use/aren't suposed to be in use
+
+
+UPDATED by Muneeba: 4/26/17 -- 8:12am
+- Added and formatted all the text, images, and bibliographies for each of the article pages 
+- Changed link for all the Project links on each Topic page - if no interactive component given, link goes back to homepage
+- Updated ArticleStyle.css with .imageCaption and .sectionsubtitle
+- Changed all Topic.html and Article.html's: 
+    - deleted windowOpener.js line
+    - moved smoothscroll.js and ArticleStyle.js to be under the head
+    - renamed Glossary to Gallery and changed Gallery class to be a button instead of opener
+- Article pages now open in the same tab instead of opening in a new tab
+- Still have that weird highlighting thing going on for the article pages...? don't know how to fix that
+- On index page, changed Glossary to say Gallery 
+- Added captions on the index page for Project Pictures for the images 
+- On Gallery page, changed "Return to menu" to say "Back to Top" 
+- Index and Gallery pages are from Kamran/Alec from earlier tonight (GalleryUpdate-2017.4.25)
+- Added photos to Native American folder 
+- NEED TO ADD WORKS CITED TO HUMAN REMAINS, SELF REP, and REPATRIATION
+
+
+UPDATED by Kamran: 4/25/17 -- 3:10 am
+- Added project pictures for 7/9 projects on index.html
+- All headshot photos have been added and named
+- All full body shot photos have been added and named
+- All available project pictures (7/9) have been added
+- Project pics reside in their own respective folder within their topic folder in the image folder
+- About Us Section uses Headshot photos of the students
+- Topic pages have been updated to use Headshot photos
+- Bio pages use Full Body photos
+- Slideshow on index uses REAL PICS -- more can potentially be added
+
+
+
+UPDATED by Alec: 4/24/17 -- 11:00 pm
+- Added a link at the bottom of the index.html for the develepers page 
+  where we will put our own bios
+- Added ContactFormTemp.html in the projects folder. This will serve as 
+  the contact form for fai's self representation.
+- Added captions for each image under the "project images" section of 
+  the index.html
+- Added more offical placeholder images made by yours truly
+- Started converting the glossary into a gallary  
+
+
+UPDATED by Kamran: 4/20/17 -- 2:38 am
+- Slideshow moves through slides
+- Slideshow has max height of 700px
+- Capitalized 'Us' in About Us on Menu Bar to make it similar to section header
+- Added Entire Class photo above text for 'About Us' section
+- Added the Full body photos of available students to the studentpics folder
+- Replaced placeholder images on topic pages (where available) to the Full body photos
+- Replaced Abby Landers Bio Photo to new headshot photo
+- Lower-cased the 'a' in 'De-accessioning' on Margaret's bio to make it uniform across the site
+- Replaced placeholder text with Corporate ipsum on De-accesioning topic page
+- Replaced two project pictures with actual pictures on index.html
+- Added ALT Podcast Page with different music
+- Changed overall width of index.html to 95%.... maybe it helps with sizing issues?
+
+
+UPDATED by Alec: 4/19/17 -- 10:30 pm
+- Fixed menubar for the podcast page
+- Reverted back to the old version of the buttons on all the topic pages(the images)
+
+
+UPDATED by Muneeba: 4/18/17 -- 8:50 am
+- Fixed the title on index page 
+- Updated Article.css formatting with superscripts and glossary words 
+- New template for article pages is Native American page 
+- Added popups for glossary words on mouseover on Native American page. Does not hyperlink to glossary though. 
+
+
+UPDATED by Alec: 4/13/17 -- 3:20 pm
+- Replaced "Project" and "Article" with "real" buttons
+- Fixed all Article pages
+
+
+UPDATED by Alec: 4/12/17 -- 8:40 pm
+- Added javascript for opening the glossary page once per linked clicked(still looking to make it only open in the browser once period)
+- Fixed gap around the menu bar site wide
+
+
+UPDATED by Muneeba: 4/11/17 -- 2:43 pm
+- Changed directory structure; Topics --> ProjectName (folder) --> Article page and Topic Page 
+- Links to project pages on index.html are changed
+- Links on each individual Topic.html are changed to respective files 
+
+UPDATED by Alec: 4/6/17 -- 7:00 pm
+- Cleaned up all css files site wide; deleted all unnessisary code and improved exsisting code
+- In the Projects directory: Swaped out audio file in the audios folder for the 
+  PodcastTemp.html to test if it was possible
+
+
+UPDATED by Muneeba & Kamran & Alec: 4/6/17 -- 3:30 pm
+- Added project bios to all topic pages (except de-accessioning)
+- Linked glossary page to all topic pages 
+- Changed left to right (in description) on all topic pages (except de-accessioning)
+- bioStyle.css has been created (comments will be deleted later) 
+- All bio pages are correctly formatted with the pictures hyperlinked to LinkedIn if given
+- Updated podcast to not start on loop setting
+
+
+UPDATED by Alec: 4/6/2017 -- 12:10 am
+-Moved PadcastTemp.html and ProjectStyle.css to a new folder called "Projects" 
+-Deleted Astronaut.mp3 and replaced it with the directory provided by the 
+ "Amazing Audio Player" application used to generate the audio player code Located in the Projects directory
+-As it stands the podcast code is ready for deployment once we obtain student content
+
+
+UPDATED by Kamran: 4/6/2017 -- 2:43 am
+-Slideshow img dimensions now change dynamically
+-Slideshow container dimensions change dynamically
+-Excess amount of <p><br><p> have been commented out -- likely to be deleted later
+-Img style "fixed-ratio-resize" has been added to all imgs on homepage
+-Ipsum on front page has been slighly tweaked
+-New folder added -- Slideshow
+	-imgs for Slideshow were added and will reside there
+
+
+UPDATED by Alec: 4/6/2017 -- 12:50 am
+-Added smooth-scrolling functionality to Glossary.html
+	*Added a file called "GlossarySmoothScroll.js" to the js directory to cater to the specific needs of 
+         the glossary's functionallity
+-Added made a "GlossaryStyle.css" based of TopicStyle.css
+-Added a menu bar to Glossary.html to jump to different letter in the alphabet
+-Added some test Glossary entries to showcase the current capabillities and pitfalls of current 
+ code (need to explore some solutions to the pitfalls)
+-Added a "PadcastTemp.html", a "ProjectStyle.css" and a "Astronaut.mp3" to prototype an audio player
+Note: All new code resides in the root directory unless explicetly stated otherwise
+
+
+UPDATED by Alec: 4/4/2017 -- 12:00 am
+-Added a folder for JavaScript files titled "js"
+-Added a JavaScript file called "smoothscroll.js"
+-Tweaked smoothscroll.js to compensate for the space the menu bar takes up
+-Enabled this "smooth-scrolling" on index.html and all topic pages
+
+
+UPDATED by Alec: 3/24/2017 -- 12:00 am
+-Added a down arrow to all Topic pages that jumps to the about section at the bottom of the page
+-Deleted Bio.html
+
+
+UPDATED by Alec: 3/23/2017 -- 9:40 pm
+
+-Removed one project/person from the index.html and rearranged the layout and resized images to compensate
+-Added a "Project Topics" and "Project Pictures" button to the menu bar in index.html
+-Moved the slide show images to a new folder called "SlideShow" in the "images" folder
+ (i.e. the new path for the slide show images is /images/SlideShow/)
+
+
+UPDATED by Kamran: 3/23/2017 -- 4:38 pm
+
+-slideshow is uniform height and width
+-slideshow moves automatically
+
+
+UPDATED by Kamran: 3/23/2017 -- 1:59 am
+
+-added code for slideshow and 3 placeholder images
+-slideshow currently is automatic and changes every 5 seconds
+-added (but commented out) code that allows user to maunually advance the slideshow
+
+
+UPDATED by Alec: 3/18/2017 -- 12:55 pm
+
+-Added adout section filler text
+-Linked "about us" menu button to jump to the about section
+
+
+UPDATED by Alec: 3/17/2017 -- 9:55 pm
+
+-Removed see through space between menu bar and page title on all pages
+-Added blurb next to bio images on Topic pages with filler content
+-Added bio section to the landing page
+-Added animations for when the curser hovers over buttons
+
+
+UPDATED by Alec: 3/17/2017 -- 11:50 am
+
+-All Student Bios are generated and connected with filler text and the appropiate images and titles.
+-Added bio images/links to Topic pages.
+-All unused/excess files have been removed.
+
+
+UPDATED By Alec: 3/17/2017 -- 1:10 am
+
+I updated the webpages with a scroll down menu bar and gave them a consistent theme with the exception of the bio pages as 
+they are to be merged with the landing page's(now called index.html per standard convention) code. 
+Student Bios are still not connected yet.
+
+The individual studentTemp.html files have been named after their old parent folder names and moved to a 
+folder called "Topics" and they all now use a unified .css file caled TopicStyle.css.  
+
+Note that the menu for index.html is different from the topic menu bars. This is to achive asthetic consistency throughout 
+the site by always offering binary options.
+
+A new folder called "Bios" has been added for all the bios that will be made in the coming months.
+
+All unused/excess files have been removed.
+
+
+UPDATED By Muneeba: 3/3/2017 -- 12:20 am
+
+I updated the webpages and connected them together. 
+Student Bios are not connected yet. 
+Each individual project has been named and has a unique "Article" and "Project" component.  

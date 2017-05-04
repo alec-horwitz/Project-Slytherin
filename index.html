@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Confronting Controversy: Case Studies from the Museum World</title>
+    <meta charset="utf-8" />
+    <script type="text/javascript" src="js/smoothscroll.js"></script>
+    <link href="indexStyle.css" type="text/css" rel="stylesheet">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" >
+  </head>
+  <body>
+    <header class="mainheader">
+    <nav><ul>
+        
+      <li><a class="mainTitle">Confronting Controversy: Case Studies from the Museum World</a></li>
+        
+    </ul></nav>
+    <nav><ul>
+      
+      <li><a href="#projectTopics" class="menuButton">Project Topics</a></li>
+      <li><a href="#projectPictures" class="menuButton">Project Pictures</a></li>
+      <li><a href="#aboutUs" class="menuButton">About Us</a></li>
+      <li><a href="Gallery.html" class="menuButton">Gallery</a></li>
+      
+    </ul></nav>
+      <p style="clear:both">
+    </header>
+    <div class="header-background"></div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+  <div class="slideshow-container"> 
+    <div class="mySlides fade">
+      <img class = "fixed-ratio-resize" src="images/Slideshow/Terracotta_Warriors12.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img class = "fixed-ratio-resize" src="images/Slideshow/Fai-China_through_the_looking_glass2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img class = "fixed-ratio-resize" src="images/Slideshow/Human-Remains-Manchester-Museum-22.jpg" style="width:100%">
+    </div>
+  </div> 
+  <br>
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+
+  <script>
+  var slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+         slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex> slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 5000); // Change image every 5 seconds
+  }
+  </script>
+
+  <div>
+  <header class="mainAltHeader">
+    <nav><ul>
+    <li><a id="projectTopics" class="secoundaryTitle">Project Topics</a></li>
+    </ul></nav>
+    <nav><ul>
+      
+      <li><a href="Topics/De-accessioning/temp.html" class="topicButton">De-accessioning</a></li>
+      <li><a href="Topics/Native_American/Topic.html" class="topicButton">Native American Graves Protection & Repatriation Act</a></li>
+      <li><a href="Topics/Fakes_and_Forgeries/Topic.html" class="topicButton">Fakes and Forgeries</a></li>
+      
+    </ul></nav>
+    <nav><ul>
+
+      <li><a href="Topics/Grave_Goods/Topic.html" class="topicButton">Grave Goods</a></li>
+      <li><a href="Topics/Nudity/Topic.html" class="topicButton">Censorship/Nudity</a></li>
+      <li><a href="Topics/Human_Remains/Topic.html" class="topicButton">Human Remains</a></li>
+      
+    </ul></nav>
+    <nav><ul>
+
+      <li><a href="Topics/Self_Rep_VS_Rep_of_Other/Topic.html" class="topicButton">Self Representation vs Representation of the "Other"</a></li>
+      <li><a href="Topics/Repatriation/Topic.html" class="topicButton">Repatriation</a></li>
+      <li><a href="Topics/Security_of_Collections/Topic.html" class="topicButton">Security of Collections</a></li>
+      
+    </ul></nav>
+
+      <p style="clear:both">
+  </header>
+  </div>
+
+
+
+
+
+  <div>
+  <header class="mainAltHeader">
+    <nav><ul>
+    <li><a id="projectPictures" class="secoundaryTitle">Project Pictures</a></li>
+    </ul></nav>
+    <nav><ul>
+      
+      <li><a href="Topics/De-accessioning/temp.html" class="picButton"><img class ="fixed-ratio-resize" img src="images/Topics/De-accessioning/Deaccessioned.png" style="width:100%;height:400px;">Column</a></li>
+      <li><a href="Topics/Native_American/Topic.html" class="picButton"><img class ="fixed-ratio-resize" img src="images/Topics/Native_American/halibut-hook-wolf-spirit.jpg" style="width:100%;height:400px;">Sacred Tlingit Halibut </a></li>
+      <li><a href="Topics/Fakes_and_Forgeries/Topic.html" class="picButton"><img class ="fixed-ratio-resize" img src="images/Topics/Fakes_and_Forgeries/James_Ossuary1.jpg" style="width:100%;height:400px;">Ossuary Box</a></li>
+      
+    </ul></nav>
+    <nav><ul>
+
+      <li><a href="Topics/Grave_Goods/Topic.html" class="picButton"><img class ="fixed-ratio-resize" img src="images/Topics/Grave_Goods/EK.jpg" style="width:100%;height:400px;">Euphronios Krater</a></li>
+      <li><a href="Topics/Nudity/Topic.html" class="picButton"><img class ="fixed-ratio-resize" img src="images/Topics/Nudity/Ofili_Brooklyn_Museum_Wikimedia.jpg" style="width:100%;height:400px;">The Holy Virgin Mary as a Black Madonna</a></li>
+      <li><a href="Topics/Human_Remains/Topic.html" class="picButton"><img class ="fixed-ratio-resize" img src="images/Topics/Human_Remains/Human-Remains-Manchester-Museum-2.jpg" style="width:100%;height:400px;">Mummy</a></li>
+      
+    </ul></nav>
+    <nav><ul>
+
+      <li><a href="Topics/Self_Rep_VS_Rep_of_Other/Topic.html" class="picButton"><img class ="fixed-ratio-resize" img src="images/Topics/Self_Rep_VS_Rep_of_Other/fai-my_compliment_1.jpg" style="width:100%;height:400px;">Exhibit by Kara Walker</a></li>
+      <li><a href="Topics/Repatriation/Topic.html" class="picButton"><img class ="fixed-ratio-resize" img src="images/Topics/Repatriation/stone_statues.jpg" style="width:100%;height:400px;">Parthenon Marbles</a></li>
+      <li><a href="Topics/Security_of_Collections/Topic.html" class="picButton"><img class ="fixed-ratio-resize" img src="images/Topics/Security_of_Collections/imgres-5.jpg" style="width:100%;height:400px;">Isabella Stewart Gardner Museum</a></li>
+      
+    </ul></nav>
+      <p style="clear:both">
+  </header>
+  </div>
+
+
+  <div>
+    <header class="mainAltHeader">
+    <nav><ul>
+    <li><a id="aboutUs" class="secoundaryTitle">About Us</a></li>
+    <li><img class ="fixed-ratio-resize" img src="images/studentpics/EntireClass.jpg" style="width:75%;height: 75%;"></li>
+    <li><a class="aboutBody">At Wheaton College, all seniors complete a capstone for their major(s). Depending on the department or program, students may complete an independent research project or thesis or take a senior seminar in their major. The Art History Senior Seminar, ARTH 401, is normally taught each spring; and responsibility for leading the course – and choosing its particular theme or focus – rotates among Art History faculty. For example, in Spring 2015, Professor Ellen McBreen’s students created a website defining 41 key Art History terms; and the following year, Professor Tripp Evans and his students catalogued the art collection at the Providence Athenaeum.</a>
+<!-- <a href="Bios/developerBioIndex.html" id="aboutUs" class="TeamButton" style="color: white;"> -->
+<!-- <a href = "#3"><span class="superscript">3</span></a> -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <a class="aboutBody">In Spring 2017, the course was taught by Leah Niederstadt, Assistant Professor of Museum Studies & Curator of the Permanent Collection, with a focus on museum controversies. Students explored controversies ranging from the repatriation of objects (or lack thereof) to the Body Worlds phenomenon, from censorship to forgeries, and from “failed” exhibitions to deaccessioning. They considered why such controversies arise, how they develop over time, and what we can learn from them, particularly regarding the economic, political and social roles museum play and the ways in which different constituencies engage with museums and museum-like institutions. Four students took the course to fulfill their Senior Seminar requirement while another five enrolled in it as a 300-level Art History course. Together, the nine students represent five majors and aspire to careers in the museum and gallery world as well as in education, government, and the non-profit sector.
+    </a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <a class="aboutBody" >For their final project, the students were each asked to choose a museum controversy and to research at least two relevant case studies. Their choices included censorship, de-accessioning, security, and repatriation among others. They collaborated with three students enrolled in Professor Mark LeBlanc’s Computer Science Senior Seminar (CS 401) to develop a website as a means of sharing their research. This collaborative project thus fulfilled the capstone requirements for both majors. Using images, text, and an interactive component, each student presents both sides of their chosen controversy, challenging website visitors to reconsider their assumptions and view classic museum controversies from more than one perspective.
+    <br><br><br>
+    </a>
+    </li>
+    </ul></nav>
+    <nav><ul>
+      
+      <li><a href="Bios/Abby_Landers.html" class="bioButton"><center>Abby Landers</center><img class ="fixed-ratio-resize" img src="images/studentpics/Abby_Landers_HS.jpg" style="width:65%;height:500px;"></a></li>
+      <li><a href="Bios/Allison_Meyette.html" class="bioButton"><center>Allison Meyette</center><img class ="fixed-ratio-resize" img src="images/studentpics/Allison_Meyette_HS.jpg" style="width:65%;height:500px;"></a></li>
+      <li><a href="Bios/Anna_Craig.html" class="bioButton"></center>Anna Craig<font color="gray">ggggggg</center><img class ="fixed-ratio-resize" img src="images/studentpics/Anna_Craig_HS.jpg" style="width:70%;height:500px;"></a></li>
+      
+    </ul></nav>
+    <nav><ul>
+
+      <li><a href="Bios/Audrey_Spina.html" class="bioButton"><center>Audrey Spina</center><img class ="fixed-ratio-resize" img src="images/studentpics/Audrey_Spina_HS.jpg" style="width:65%;height:500px;"></a></li>
+      <li><a href="Bios/Fai_Pokachaiyapat.html" class="bioButton"><center>Fai Pokachaiyapat</center><img class ="fixed-ratio-resize" img src="images/studentpics/Fai_Pokachaiyapat_HS.jpg" style="width:65%;height:500px;"></a></li>
+      <li><a href="Bios/Jialei_Feng.html" class="bioButton"><center>Jialei Feng</center><img class ="fixed-ratio-resize" img src="images/studentpics/Jialei_Feng_HS.jpg" style="width:65%;height:500px;"></a></li>
+      
+    </ul></nav>
+    <nav><ul>
+
+      <li><a href="Bios/Lucy_Frey.html" class="bioButton"><center>Lucy Frey</center><img class ="fixed-ratio-resize" img src="images/studentpics/Lucy_Frey_HS.jpg" style="width:65%;height:500px;"></a></li>
+      <li><a href="Bios/Margaret_Liu.html" class="bioButton"><center>Margaret Liu</center><img class ="fixed-ratio-resize" img src="images/studentpics/Margaret_Liu_HS.jpg" style="width:65%;height:500px;"></a></li>
+      <li><a href="Bios/Quinn_Redmond.html" class="bioButton"><center>Quinn Redmond</center><img class ="fixed-ratio-resize" img src="images/studentpics/Quinn_Redmond_HS.jpg" style="width:65%;height:500px;"></a></li>
+      
+    </ul></nav>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <nav><ul>
+      <li><a href="Bios/developerBioIndex.html" id="aboutUs" class="TeamButton" style="color: white;">Meet The Developers of this Site</a></li>
+    </ul></nav>
+      <p style="clear:both">
+    </header>
+  </div>
+  </body>
+</html>

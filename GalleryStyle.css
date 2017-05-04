@@ -1,0 +1,141 @@
+body {
+  background-color: #343434;
+  color: white;
+  text-align: center;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    width: 33%;
+    max-width: 33%;
+}
+
+h1 {
+  text-align: middle;
+}
+
+.mainTitle {
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 50px;
+  float: left;
+  border: 1px solid grey;
+  width: 99.18%;
+  box-shadow: 0 0 1px transparent;
+}
+.secoundaryTitle {
+  background-color: dark gray;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 50px;
+  float: left;
+  width: 99%;
+  box-shadow: 0 0 1px transparent;
+  margin-top: 160px;
+}
+.menuButton {
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  float: left;
+  border: 1px solid grey;
+  width: 49.54%;
+  box-shadow: 0 0 1px transparent;
+}
+.menuButton:hover {
+  background-color: gray;
+  color: black;
+}
+.topicHeader {
+  margin-top: 160px;
+}
+.topicButton {
+  background-color: gray;
+  color: black;
+  padding-top: 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 19px;
+  float: left;
+  border: 1px solid black;
+  width: 32.5%;
+  height:80px;
+  box-shadow: 0 0 1px transparent;
+  height: 50px;
+}
+.topicButton:hover {
+  background-color: black;
+  color: white;
+}
+.header-background {
+  top: 0%;
+  left: 0%;
+  background-color: black;
+  width: 100%;
+  height: 148px;
+  position: fixed;
+  z-index: 5;
+}
+.mainheader {
+  top: 0%;
+  left: 0.3%;
+  height: 0px;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  z-index: 10;
+}
+.mainheader nav ul {
+	list-style: none;
+  margin-top: 0px;
+	margin-left: 0px;
+  padding-left: 0px;
+  height: 100%;
+  display: block;
+  text-align: center;
+}
+.mainAltHeader {
+  height: 0px;
+  text-align: center;
+  width: 100%;
+  z-index: 10;
+}
+.mainAltHeader nav ul {
+  list-style: none;
+  margin-top: 0px;
+  margin-left: 2%;
+  padding-left: 0px;
+  height: 100%;
+  display: block;
+  text-align: center;
+}
+
+.picButton {
+  background-color: gray;
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  float: left;
+  border: 1px solid black;
+  width: 66.33%;
+  height:100%;
+  box-shadow: 0 0 1px transparent;
+}

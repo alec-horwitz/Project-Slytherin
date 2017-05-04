@@ -21,7 +21,7 @@ In Spring 2017, the course was taught by Leah Niederstadt, Assistant Professor o
 
 For their final project, the students were each asked to choose a museum controversy and to research at least two relevant case studies. Their choices included censorship, de-accessioning, security, and repatriation among others. They collaborated with three students enrolled in Professor Mark LeBlanc’s Computer Science Senior Seminar (CS 401) to develop a website as a means of sharing their research. This collaborative project thus fulfilled the capstone requirements for both majors. Using images, text, and an interactive component, each student presents both sides of their chosen controversy, challenging website visitors to reconsider their assumptions and view classic museum controversies from more than one perspective. 
 
-PROJECT OVERVEIW
+PROJECT OVERVIeW
 ----------------
 The goal was to provide an intuitive and captivating interface in order to educate future art historians on various controversies that museums face in regards to different artifacts and pieces within their collection. 
 

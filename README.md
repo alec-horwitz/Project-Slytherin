@@ -9,7 +9,7 @@ ABOUT US
 Created by:
 Kamran Noorian, Muneeba Syed, Alec Horwitz
 
-
+Pictures of the student were generously taken by Juli Mikush. 
 
 PROJECT OVERVEIW
 ----------------
